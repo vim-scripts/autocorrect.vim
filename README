@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2429
+
+Looking through the examples in Vim, there are examples of correcting typos and misspellings like:
+
+iabbrev teh the
+iabbrev het the
+...
+
+However, it is very time-consuming to create this list by hand.  You also have to enter the correct capitalization, which is a pain.  ('teh->the' is not equal to 'Teh->The')
+
+It seems silly for everyone to create their own autocorrect file, so hopefully we can work together to make a sweet list.  I found a nice list from Wikipedia and cleaned it up a bit as a basis, and incorporated the typo fixes from Vim Cream.  I also added some words that I commonly misspelled or mistyped, and have taken additional contributions from users of the script.
+
+I'm sure there are some mistakes, or common mistakes that aren't in here yet, so if you find any, please contact me and I will gladly change things.  There are some additional details or thoughts as well as a shortcut to a word-processing mode at http://22ideastreet.com/blog/2008/11/06/vim-word-processing.
+
+I find this script invaluable when using Mozex to edit forms online (blog posts, web mail, etc.)
+
+There is a GitHub repository that you can contribute to at http://github.com/panozzaj/vim-autocorrect/tree/master
